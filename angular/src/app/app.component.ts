@@ -3,13 +3,14 @@ import { getBrowserCultureLang, getBrowserLang, TranslocoService } from '@ngneat
 import { TranslocoLocaleService } from '@ngneat/transloco-locale';
 import { RouterOutlet } from '@angular/router';
 import { ToastsContainerComponent } from './shared/toast/toast-container.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @Component({
     selector: 'shpp-root',
     templateUrl: './app.component.html',
     styles: [],
     standalone: true,
-    imports: [RouterOutlet, ToastsContainerComponent]
+    imports: [RouterOutlet, ToastsContainerComponent, FooterComponent]
 })
 export class AppComponent {
 

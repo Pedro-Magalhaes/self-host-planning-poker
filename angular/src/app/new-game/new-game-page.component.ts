@@ -6,7 +6,6 @@ import { Router } from '@angular/router';
 import { GameFormComponent } from '../shared/game-form/game-form.component';
 import { ContainerComponent } from '../shared/container/container.component';
 import { NavAppTitleComponent } from '../navigation-bar/app-title/nav-app-title.component';
-import { FooterComponent } from '../shared/footer/footer.component';
 
 @Component({
   standalone: true,
@@ -17,8 +16,7 @@ import { FooterComponent } from '../shared/footer/footer.component';
     HttpClientModule,
     GameFormComponent,
     ContainerComponent,
-    NavAppTitleComponent,
-    FooterComponent
+    NavAppTitleComponent
   ]
 })
 export class NewGamePageComponent {
